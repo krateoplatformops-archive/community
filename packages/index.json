@@ -1,22 +1,23 @@
 {
-  "providers": [
+  "packages": [
     {
-      "package": "xpkg.upbound.io/crossplane/provider-aws",
+      "image": "xpkg.upbound.io/crossplane/provider-aws",
       "name": "provider aws",
       "description": "lorem ipsum...",
       "icon": "https://raw.githubusercontent.com/krateoplatformops/community/main/packages/aws.svg",
       "maintainer": "",
       "version": "0.0.1",
+      "source": "https://github.com/crossplane/provider-aws",
       "cli": true
     },
     {
-      "package": "ghcr.io/krateoplatformops/krateo-module-core-new",
+      "image": "ghcr.io/krateoplatformops/krateo-module-core-new",
       "name": "aws",
       "description": "",
       "icon": "aws",
       "maintainer": "",
       "version": "0.0.1",
-      "repository": "",
+      "source": "https://github.com/krateoplatformops/krateo-module-core-new",
       "cli": true
     }
   ]
