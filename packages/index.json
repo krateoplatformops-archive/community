@@ -48,7 +48,18 @@
       "maintainer": "",
       "version": "0.0.1",
       "source": "https://github.com/crossplane/provider-aws",
-      "cli": false
+      "cli": false,
+      "package": "https://github.com/krateoplatformops/krateo-template-aws-stack/blob/main/defaults/package.yaml",
+      "secret": [
+        {
+          "type": "string",
+          "key": "accountId"
+        },
+        {
+          "type": "string",
+          "key": "accountPassword"
+        }
+      ]
     },
     {
       "image": "ghcr.io/krateoplatformops/krateo-module-core-new",
